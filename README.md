@@ -8,6 +8,7 @@ Key Features:
 Data preprocessing techniques, including handling class imbalance.
 Model training and evaluation using methods like Logistic Regression, Decision Trees, and Random Forest.
 Performance metrics including F1 Score and Precision-Recall curves for assessing model effectiveness on imbalanced data.
+
 Project 2: Spam Email Classifier using Machine Learning
 
 Description: This project involves building a spam email classifier to distinguish between spam and non-spam emails. The project uses natural language processing (NLP) techniques to process text data and create effective features for classification.
