@@ -25,3 +25,9 @@ Data exploration and preprocessing to prepare network traffic data for analysis.
 Application of various machine learning models, including Random Forest, Logistic Regression, and Neural Networks.
 Model evaluation using accuracy, F1 score, recall, and ROC-AUC to ensure reliability in detecting DDoS attacks.
 Each project is implemented in Jupyter Notebooks or Google Collab and demonstrates best practices in data preprocessing, model selection, and performance evaluation.
+
+Project 4 : Implement URL phishing detection with Logistic Regression and TF-IDF vectorization
+Description: This project aims to classify URLs as either "legitimate" or "phishing" using machine learning. The project utilizes a logistic regression model, trained on a dataset of URLs, and applies the TF-IDF (Term Frequency-Inverse Document Frequency) vectorization technique to convert the URLs into numerical features for analysis. By cleaning and preprocessing the URLs, the model can differentiate between harmful phishing sites and trusted, legitimate websites. The project reads a dataset of URLs from a CSV file, splits the data into training and test sets, and evaluates the model's performance. The final trained model and the corresponding URL vectorizer are saved using pickle for later use in making predictions.
+
+Key Features:
+The project features a robust URL classification system that preprocesses and cleans URLs by removing unwanted parts and non-alphanumeric characters, using a custom tokenizer. It then transforms the cleaned URLs into numerical feature vectors through TF-IDF vectorization, enabling the classification of URLs as legitimate or phishing. The system utilizes a logistic regression model for training and classification, with an evaluation step to assess the model's performance. Additionally, it saves the trained model and vectorizer for future use, allowing for the classification of new URLs without retraining the model.
