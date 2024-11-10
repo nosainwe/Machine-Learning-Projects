@@ -24,4 +24,4 @@ Key Features:
 Data exploration and preprocessing to prepare network traffic data for analysis.
 Application of various machine learning models, including Random Forest, Logistic Regression, and Neural Networks.
 Model evaluation using accuracy, F1 score, recall, and ROC-AUC to ensure reliability in detecting DDoS attacks.
-Each project is implemented in Jupyter Notebooks and demonstrates best practices in data preprocessing, model selection, and performance evaluation.
+Each project is implemented in Jupyter Notebooks or Google Collab and demonstrates best practices in data preprocessing, model selection, and performance evaluation.
