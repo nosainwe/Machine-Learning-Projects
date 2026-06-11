@@ -35,9 +35,9 @@ This project tackles the detection of fraudulent credit card transactions using 
 A text classification pipeline that distinguishes spam from legitimate email using natural language processing. Raw email text is cleaned and transformed into numerical features using TF-IDF and N-gram representations, then fed into Naive Bayes and SVM classifiers. The project demonstrates how NLP preprocessing choices (vocabulary size, n-gram range, stopword removal) interact with model performance, and evaluates results using accuracy, F1 score, and a confusion matrix.
 
 **Highlights:**
-- TF-IDF vectorization with N-gram feature extraction
+- TF-IDF vectorisation with N-gram feature extraction
 - Naive Bayes and SVM classifiers compared
-- Full evaluation including confusion matrix breakdown
+- Full evaluation, including confusion matrix breakdown
 
 ---
 
@@ -59,12 +59,12 @@ Network intrusion detection framed as a multi-class classification problem using
 
 **[View Project](./Project%204%20-%20Implement%20URL%20phishing%20detection%20with%20Logistic%20Regression%20and%20TF-IDF%20vectorization/)**
 
-A URL classification system that identifies phishing sites by treating URLs as text and applying TF-IDF vectorization with a custom tokenizer that strips protocol prefixes and non-alphanumeric characters before feature extraction. A Logistic Regression model is trained on the resulting feature vectors to classify URLs as legitimate or phishing. The trained model and vectorizer are serialized with pickle so new URLs can be scored at inference time without retraining. The project demonstrates how NLP feature extraction techniques transfer cleanly to non-text domains like URL analysis.
+A URL classification system that identifies phishing sites by treating URLs as text and applying TF-IDF vectorisation with a custom tokeniser that strips protocol prefixes and non-alphanumeric characters before feature extraction. A Logistic Regression model is trained on the resulting feature vectors to classify URLs as legitimate or phishing. The trained model and vectorizer are serialised with pickle so new URLs can be scored at inference time without retraining. The project demonstrates how NLP feature extraction techniques transfer cleanly to non-text domains like URL analysis.
 
 **Highlights:**
-- Custom URL tokenizer for cleaner feature extraction
+- Custom URL tokeniser for cleaner feature extraction
 - TF-IDF applied to URLs as character/token sequences
-- Pickle serialization for production-ready inference
+- Pickle serialisation for production-ready inference
 - No retraining needed for new URL classification
 
 ---
