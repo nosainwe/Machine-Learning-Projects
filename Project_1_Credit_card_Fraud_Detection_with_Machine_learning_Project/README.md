@@ -61,7 +61,7 @@
 
 <h2 id="data-preprocessing">Data Preprocessing</h2>
 
-<p>This project includes data preprocessing steps such as handling missing values, normalizing the feature values, and addressing class imbalance through techniques such as oversampling and undersampling.</p>
+<p>This project includes data preprocessing steps such as handling missing values, normalising the feature values, and addressing class imbalance through techniques such as oversampling and undersampling.</p>
 
 <h2 id="model-training">Model Training</h2>
 
@@ -69,7 +69,7 @@
 
 <h2 id="evaluation">Evaluation</h2>
 
-<p>The model's performance is evaluated using various metrics, including accuracy, precision, recall, F1-score, and confusion matrix, with a specific focus on optimizing recall to minimize false negatives.</p>
+<p>The model's performance is evaluated using various metrics, including accuracy, precision, recall, F1-score, and confusion matrix, with a specific focus on optimising recall to minimise false negatives.</p>
 
 <h2 id="results">Results</h2>
 
