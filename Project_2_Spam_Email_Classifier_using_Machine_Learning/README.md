@@ -56,7 +56,7 @@
   <h2>Example Code</h2>
     <pre>
 # Example of using the prediction system
-input_mail = ["Free entry in 2 a wkly comp to win FA Cup f"]
+input_mail = ["Free entry in 2 a weekly comp to win FA Cup f"]
 input_data_features = feature_extraction.transform(input_mail)
 prediction = model.predict(input_data_features)
 
@@ -70,7 +70,7 @@ else:
     <p>Based on the provided dataset, the model achieved high accuracy, indicating its effectiveness in identifying spam messages.</p>
 
   <h2>References</h2>
-    <p>Scikit-learn documentation and tutorials on text classification were helpful for setting up and training this model.</p>
+    <p>Scikit-learn documentation and tutorials on text classification helped set up and train this model.</p>
     <h2>License</h2>
 <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for more details.</p>
 </body>
