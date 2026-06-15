@@ -7,7 +7,7 @@
 </head>
 <body>
   <h1>Intrusion Detection System (IDS) 2017 Dataset Project</h1>
-  <p>This project focuses on analyzing the IDS 2017 dataset to develop a machine learning model capable of detecting network intrusions. By identifying malicious network activities, the model can help enhance cybersecurity measures in modern networks. This project includes steps for data preprocessing, model training, evaluation, and performance comparison of different machine learning algorithms.</p>
+  <p>This project focuses on analysing the IDS 2017 dataset to develop a machine learning model capable of detecting network intrusions. By identifying malicious network activities, the model can help enhance cybersecurity measures in modern networks. This project includes steps for data preprocessing, model training, evaluation, and performance comparison of different machine learning algorithms.</p>
 
   <h2>Project Workflow</h2>
   <p>This README will guide you through each phase of the project. Below is a breakdown of each step involved in creating a successful intrusion detection system.</p>
@@ -35,17 +35,17 @@ df.dropna(inplace=True)</code></pre>
     </li>
 
   <li><strong>Data Exploration</strong>
-      <p>Data exploration involves understanding the properties of the dataset, identifying patterns, and visualizing distributions. This helps in uncovering insights about each feature, which can be useful when selecting which features to use in the model. Descriptive statistics and visualizations are key methods used in this step.</p>
+      <p>Data exploration involves understanding the properties of the dataset, identifying patterns, and visualising distributions. This helps in uncovering insights about each feature, which can be useful when selecting which features to use in the model. Descriptive statistics and visualisations are key methods used in this step.</p>
       <pre><code>df.describe()</code></pre>
     </li>
 
    <li><strong>Data Splitting</strong>
-      <p>We split the dataset into two sets: training and testing sets. The training set is used to fit the machine learning model, while the testing set evaluates the model's performance. This process helps us understand how the model generalizes to new, unseen data. A typical split is 80% for training and 20% for testing.</p>
+      <p>We split the dataset into two sets: training and testing sets. The training set is used to fit the machine learning model, while the testing set evaluates the model's performance. This process helps us understand how the model generalises to new, unseen data. A typical split is 80% for training and 20% for testing.</p>
       <pre><code>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)</code></pre>
     </li>
 
   <li><strong>Feature Scaling</strong>
-      <p>Feature scaling standardizes the features, bringing all values into a similar range. This step improves model performance, especially for algorithms like Neural Networks. Scaling is done by normalizing data to have a mean of zero and a standard deviation of one.</p>
+      <p>Feature scaling standardises the features, bringing all values into a similar range. This step improves model performance, especially for algorithms like Neural Networks. Scaling is done by normalising data to have a mean of zero and a standard deviation of one.</p>
       <pre><code>scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)</code></pre>
