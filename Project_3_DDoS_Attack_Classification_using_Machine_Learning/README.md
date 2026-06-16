@@ -14,7 +14,7 @@
 
   <ol>
     <li><strong>Importing Libraries</strong>
-      <p>Libraries are essential tools that provide pre-written functions to handle data analysis, modeling, and visualization. In this project, we use libraries such as pandas for data handling, NumPy for numerical operations, and scikit-learn for machine learning models.</p>
+      <p>Libraries are essential tools that provide pre-written functions to handle data analysis, modelling, and visualisation. In this project, we use libraries such as pandas for data handling, NumPy for numerical operations, and scikit-learn for machine learning models.</p>
       <pre><code>import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -28,7 +28,7 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
     </li>
 
    <li><strong>Data Pre-processing</strong>
-      <p>Data preprocessing is the process of cleaning and transforming raw data into a format suitable for modeling. This involves handling missing values, encoding categorical features, and scaling numeric data. For this project, we load the IDS 2017 dataset and clean it to remove any null values, ensuring it is ready for analysis.</p>
+      <p>Data preprocessing is the process of cleaning and transforming raw data into a format suitable for modelling. This involves handling missing values, encoding categorical features, and scaling numeric data. For this project, we load the IDS 2017 dataset and clean it to remove any null values, ensuring it is ready for analysis.</p>
       <pre><code>df = pd.read_csv('/content/DDos.csv')
 # Dropping rows with null values
 df.dropna(inplace=True)</code></pre>
@@ -102,7 +102,7 @@ recall = recall_score(y_test, y_pred)</code></pre>
     <li>Ensure you have the required libraries installed using the following command:</li>
       <pre><code>pip install pandas numpy matplotlib seaborn scikit-learn</code></pre>
     <li>Run each section of the project as outlined above, in the same order.</li>
-    <li>Analyze the results and determine the best model based on evaluation metrics.</li>
+    <li> Analyse the results and determine the best model based on evaluation metrics.</li>
   </ol>
 
   <h2>Results</h2>
