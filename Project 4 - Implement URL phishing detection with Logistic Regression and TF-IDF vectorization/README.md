@@ -8,7 +8,7 @@
 <body>
 
 <h1>Phishing URL Detection Project</h1>
-<p>This project demonstrates a machine learning approach to identifying phishing URLs. Using a logistic regression model and TF-IDF vectorization, the system analyzes URLs and classifies them as "phishing" or "legitimate." This README provides an overview of the code, setup, and functionality.</p>
+<p>This project demonstrates a machine learning approach to identifying phishing URLs. Using a logistic regression model and TF-IDF vectorisation, the system analyses URLs and classifies them as "phishing" or "legitimate." This README provides an overview of the code, setup, and functionality.</p>
 
 <h2>1. Project Structure</h2>
 <ul>
