@@ -13,7 +13,7 @@
 <h2>1. Project Structure</h2>
 <ul>
     <li><strong>main.py</strong>: Main code file that preprocesses data, trains the model, evaluates accuracy, and saves the model.</li>
-    <li><strong>phishing_site_urls.csv</strong>: Dataset file containing URLs labeled as either "phishing" or "legitimate" (replace with your actual dataset).</li>
+    <li><strong>phishing_site_urls.csv</strong>: Dataset file containing URLs labelled as either "phishing" or "legitimate" (replace with your actual dataset).</li>
     <li><strong>model.pkl</strong>: Trained Logistic Regression model saved as a binary file for later use.</li>
     <li><strong>vector.pkl</strong>: TF-IDF vectorizer object saved for re-use during prediction.</li>
 </ul>
@@ -34,7 +34,7 @@ import pickle
 </pre>
 
 <h3>Data Preprocessing</h3>
-<p>The <code>url_cleanse</code> function is used to clean URLs by converting to lowercase, removing protocols like <code>http://</code>, <code>https://</code>, and <code>www</code>, and then tokenizing:</p>
+<p>The <code>url_cleanse</code> function is used to clean URLs by converting to lowercase, removing protocols like <code>http://</code>, <code>https://</code>, and <code>www</code>, and then tokenising:</p>
 <pre>
 def url_cleanse(url):
     url = url.lower()
@@ -54,7 +54,7 @@ random.shuffle(data_list)
 </pre>
 
 <h3>Feature Extraction and Model Training</h3>
-<p>Using TF-IDF, we vectorize URLs to represent them numerically, and then train a logistic regression model on 80% of the data:</p>
+<p>Using TF-IDF, we vectorise URLs to represent them numerically, and then train a logistic regression model on 80% of the data:</p>
 <pre>
 url_vectorizer = TfidfVectorizer(tokenizer=url_cleanse)
 l_regress = LogisticRegression()
