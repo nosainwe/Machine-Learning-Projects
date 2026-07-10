@@ -116,10 +116,10 @@ y_predict = lgr.predict(url_vectorizer.transform(inputurls))
 </ul>
 
 <h2>6. Conclusion</h2>
-<p>This project demonstrates a fundamental approach to URL classification for phishing detection using logistic regression. It includes custom URL preprocessing, TF-IDF vectorization, and model saving/loading for scalable future use.</p>
+<p>This project demonstrates a fundamental approach to URL classification for phishing detection using logistic regression. It includes custom URL preprocessing, TF-IDF vectorisation, and model saving/loading for scalable future use.</p>
 
 </body>
 </html>
 
 
-Link to dataset used https://www.kaggle.com/datasets/taruntiwarihp/phishing-site-urls
+Link to the dataset used https://www.kaggle.com/datasets/taruntiwarihp/phishing-site-urls
