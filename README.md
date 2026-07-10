@@ -19,7 +19,7 @@ A collection of machine learning projects spanning classification, natural langu
 
 **[View Project](./Project_1_Credit_card_Fraud_Detection_with_Machine_learning_Project/)**
 
-This project tackles the detection of fraudulent credit card transactions using supervised machine learning. The dataset is severely class-imbalanced (fraud is rare by nature), so a significant part of the work goes into handling that imbalance correctly before any model is trained. Multiple classifiers are compared including Logistic Regression, Decision Trees, and Random Forest, and performance is measured using F1 Score and Precision-Recall curves rather than raw accuracy, which would be misleading on imbalanced data.
+This project tackles the detection of fraudulent credit card transactions using supervised machine learning. The dataset is severely class-imbalanced (fraud is rare by nature), so a significant part of the work goes into handling that imbalance correctly before any model is trained. Multiple classifiers are compared, including Logistic Regression, Decision Trees, and Random Forest, and performance is measured using F1 Score and Precision-Recall curves rather than raw accuracy, which would be misleading on imbalanced data.
 
 **Highlights:**
 - Imbalance handling via resampling and class weighting
@@ -32,7 +32,7 @@ This project tackles the detection of fraudulent credit card transactions using 
 
 **[View Project](./Project_2_Spam_Email_Classifier_using_Machine_Learning/)**
 
-A text classification pipeline that distinguishes spam from legitimate email using natural language processing. Raw email text is cleaned and transformed into numerical features using TF-IDF and N-gram representations, then fed into Naive Bayes and SVM classifiers. The project demonstrates how NLP preprocessing choices (vocabulary size, n-gram range, stopword removal) interact with model performance, and evaluates results using accuracy, F1 score, and a confusion matrix.
+A text classification pipeline that distinguishes spam from legitimate email using natural language processing. Raw email text is cleaned and transformed into numerical features using TF-IDF and N-gram representations, then fed into Naive Bayes and SVM classifiers. The project demonstrates how NLP preprocessing choices (vocabulary size, n-gram range, stop-word removal) interact with model performance, and evaluates results using accuracy, F1 score, and a confusion matrix.
 
 **Highlights:**
 - TF-IDF vectorisation with N-gram feature extraction
