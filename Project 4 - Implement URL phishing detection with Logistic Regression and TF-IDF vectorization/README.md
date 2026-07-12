@@ -64,7 +64,7 @@ l_regress.fit(x_train_vectorized, y_train)
 </pre>
 
 <h3>Model Evaluation</h3>
-<p>To evaluate, we vectorize the test URLs and calculate the accuracy score:</p>
+<p>To evaluate, we vectorise the test URLs and calculate the accuracy score:</p>
 <pre>
 x_test_vectorized = url_vectorizer.transform(x_test)
 l_score = l_regress.score(x_test_vectorized, y_test)
