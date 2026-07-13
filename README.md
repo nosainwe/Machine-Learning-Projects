@@ -45,7 +45,7 @@ A text classification pipeline that distinguishes spam from legitimate email usi
 
 **[View Project](./Project_3_DDoS_Attack_Classification_using_Machine_Learning/)**
 
-Network intrusion detection framed as a multi-class classification problem using the CICIDS 2017 dataset, one of the standard benchmarks for network security ML research. The project covers exploratory data analysis on high-dimensional network traffic features, preprocessing to handle noise and class imbalance across attack types, and training Random Forest, Logistic Regression, and Neural Network models. Evaluation uses accuracy, F1 score, recall, and ROC-AUC to give a complete picture of detection reliability.
+Network intrusion detection framed as a multi-class classification problem using the CICIDS 2017 dataset, a standard benchmark for network security ML research. The project covers exploratory data analysis on high-dimensional network traffic features, preprocessing to handle noise and class imbalance across attack types, and training Random Forest, Logistic Regression, and Neural Network models. Evaluation uses accuracy, F1 score, recall, and ROC-AUC to give a complete picture of detection reliability.
 
 **Highlights:**
 - CICIDS 2017 dataset (real-world network traffic captures)
@@ -59,7 +59,7 @@ Network intrusion detection framed as a multi-class classification problem using
 
 **[View Project](./Project%204%20-%20Implement%20URL%20phishing%20detection%20with%20Logistic%20Regression%20and%20TF-IDF%20vectorization/)**
 
-A URL classification system that identifies phishing sites by treating URLs as text and applying TF-IDF vectorisation with a custom tokeniser that strips protocol prefixes and non-alphanumeric characters before feature extraction. A Logistic Regression model is trained on the resulting feature vectors to classify URLs as legitimate or phishing. The trained model and vectorizer are serialised with pickle so new URLs can be scored at inference time without retraining. The project demonstrates how NLP feature extraction techniques transfer cleanly to non-text domains like URL analysis.
+A URL classification system that identifies phishing sites by treating URLs as text and applying TF-IDF vectorisation with a custom tokeniser that strips protocol prefixes and non-alphanumeric characters before feature extraction. A Logistic Regression model is trained on the resulting feature vectors to classify URLs as legitimate or phishing. The trained model and vectorizer are serialised with pickle so new URLs can be scored at inference time without retraining. The project demonstrates how NLP feature extraction techniques transfer cleanly to non-text domains, such as URL analysis.
 
 **Highlights:**
 - Custom URL tokeniser for cleaner feature extraction
